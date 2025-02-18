@@ -4,29 +4,21 @@ import { Award, ExternalLink } from "lucide-react";
 const Certificates = () => {
   const certificates = [
     {
-      title: "AWS Certified Solutions Architect",
-      organization: "Amazon Web Services",
-      date: "2023",
+      title: "Meta Front-End Developer Specialization",
+      organization: "Coursera (Meta)",
+      date: "2024",
       description:
-        "Professional certification for designing distributed applications and systems on AWS",
-      link: "https://aws.amazon.com/certification/",
+        "Professional certification in front-end development from Meta, covering modern web development practices and technologies",
+      link: "https://www.coursera.org/account/accomplishments/specialization/BCPUSNS188OE",
     },
     {
-      title: "Google Cloud Professional Developer",
-      organization: "Google",
-      date: "2022",
+      title: "Version Control",
+      organization: "Coursera (Meta)",
+      date: "2024",
       description:
-        "Advanced certification for building scalable applications on Google Cloud Platform",
-      link: "https://cloud.google.com/certification/cloud-developer",
-    },
-    {
-      title: "Meta Frontend Developer",
-      organization: "Meta",
-      date: "2022",
-      description:
-        "Professional certification in modern frontend development practices",
-      link: "https://developers.facebook.com/certification/",
-    },
+        "Comprehensive course on version control systems focusing on Git and GitHub for collaborative development",
+      link: "https://www.coursera.org/account/accomplishments/records/2ZIXW6NYZ6TD",
+    }
   ];
 
   return (
@@ -34,7 +26,7 @@ const Certificates = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Certificates</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
           {certificates.map((cert, index) => (
             <div
               key={index}
