@@ -7,13 +7,9 @@ const Education = () => {
       id: 1,
       institution: "Africa University",
       degree: "Bachelor of Science in Computer Science",
-      duration: "Expected in 06/2026",
-      description: "Currently pursuing a Computer Science degree with focus on software development and modern programming practices.",
-      achievements: [
-        "GPA: 3.62/4.0",
-        "Dean's List Student",
-        "Computer Science Club Member"
-      ]
+      duration: "Expected in 06/2026 | GPA: 3.62/4.0",
+      description: "",
+      achievements: []
     }
   ];
 
@@ -42,17 +38,21 @@ const Education = () => {
                   <p className="text-sm text-muted-foreground mb-3">
                     {education.duration}
                   </p>
-                  <p className="text-muted-foreground mb-4">
-                    {education.description}
-                  </p>
-                  <div className="space-y-2">
-                    <h4 className="font-medium">Key Achievements:</h4>
-                    <ul className="list-disc list-inside space-y-1 text-muted-foreground">
-                      {education.achievements.map((achievement, index) => (
-                        <li key={index}>{achievement}</li>
-                      ))}
-                    </ul>
-                  </div>
+                  {education.description && (
+                    <p className="text-muted-foreground mb-4">
+                      {education.description}
+                    </p>
+                  )}
+                  {education.achievements.length > 0 && (
+                    <div className="space-y-2">
+                      <h4 className="font-medium">Key Achievements:</h4>
+                      <ul className="list-disc list-inside space-y-1 text-muted-foreground">
+                        {education.achievements.map((achievement, index) => (
+                          <li key={index}>{achievement}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
