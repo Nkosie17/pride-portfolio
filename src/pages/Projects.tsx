@@ -18,38 +18,46 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "A modern e-commerce platform built with React and Node.js",
-      fullDescription:
-        "A full-featured e-commerce platform with user authentication, product management, shopping cart, and payment integration. Built with scalability and performance in mind.",
+      title: "SkyDrift",
+      description: "A flight booking and seat reservation system",
+      fullDescription: "A comprehensive flight booking system that allows users to search for flights, book tickets, and select seats. Built with modern web technologies for optimal performance and user experience.",
       image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
       technologies: [
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Express",
-        "Stripe",
-        "AWS S3",
+        "Java",
+        "JavaFX",
+        "MySQL",
+        "CSS",
       ],
-      github: "https://github.com/johndoe/ecommerce",
+      github: "https://github.com/Nkosie17/SkyDrift",
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application",
-      fullDescription:
-        "A real-time task management application that allows teams to collaborate effectively. Features include task assignment, progress tracking, and team chat.",
+      title: "Foodie Palace",
+      description: "A restaurant management system for food ordering",
+      fullDescription: "A restaurant management system that enables customers to place orders, track their orders, and make payments. The system also includes an admin dashboard for restaurant management.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
       technologies: [
-        "React",
-        "Firebase",
-        "TypeScript",
-        "Material-UI",
-        "Redux",
+        "Java",
+        "JavaFX",
+        "MySQL",
+        "CSS",
       ],
-      github: "https://github.com/johndoe/taskmanager",
+      github: "https://github.com/Nkosie17/FoodiePalace",
     },
-    // Add more projects as needed
+    {
+      id: 3,
+      title: "Portfolio Website",
+      description: "My personal portfolio website built with modern technologies",
+      fullDescription: "A modern, responsive portfolio website showcasing my projects and skills. Built with React and Tailwind CSS for a clean and professional look.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Shadcn/UI"
+      ],
+      github: "https://github.com/Nkosie17/portfolio",
+    }
   ];
 
   return (
