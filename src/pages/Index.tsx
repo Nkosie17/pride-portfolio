@@ -6,7 +6,7 @@ const About = () => {
     <div className="min-h-screen pt-32 animate-fade-in bg-[#F8F9FF]">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-sm p-8 mb-12">
+          <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
             <div className="relative w-32 h-32 mx-auto mb-8">
               <img
                 src="/lovable-uploads/84e48ec8-e956-42ba-a512-c503f733ebe1.png"
