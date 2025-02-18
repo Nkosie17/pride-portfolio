@@ -4,7 +4,7 @@ import { Mail, Linkedin, Github, MapPin } from "lucide-react";
 const About = () => {
   return (
     <div className="min-h-screen animate-fade-in bg-[#F8F9FF]">
-      <div className="container mx-auto px-4 pb-20">
+      <div className="container mx-auto px-4 pb-8">
         <div className="max-w-4xl mx-auto pt-32">
           <div className="relative w-32 h-32 mx-auto mb-8">
             <img
@@ -27,7 +27,7 @@ const About = () => {
             Victoria Falls, Zimbabwe
           </div>
 
-          <div className="bg-white rounded-2xl shadow-sm p-8 mb-16">
+          <div className="bg-white rounded-2xl shadow-sm p-8 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">
               About Me
             </h2>
@@ -38,7 +38,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="flex items-center justify-center space-x-8 mb-32">
+          <div className="flex items-center justify-center space-x-8 mb-12">
             <a
               href="https://github.com/Nkosie17"
               target="_blank"
