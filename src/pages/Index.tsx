@@ -38,7 +38,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="flex items-center justify-center space-x-8">
+          <div className="flex items-center justify-center space-x-8 mb-16">
             <a
               href="https://github.com/johndoe"
               target="_blank"
