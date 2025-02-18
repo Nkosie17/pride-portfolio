@@ -89,7 +89,15 @@ const Projects = () => {
         </div>
 
         {selectedProject && (
-          <div className="fixed inset-0 bg-background/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div 
+            className="fixed inset-0 bg-background/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+            onClick={(e) => {
+              // Close modal when clicking the backdrop
+              if (e.target === e.currentTarget) {
+                setSelectedProject(null);
+              }
+            }}
+          >
             <div className="bg-card max-w-2xl w-full rounded-lg shadow-lg relative animate-fade-in">
               <button
                 onClick={() => setSelectedProject(null)}

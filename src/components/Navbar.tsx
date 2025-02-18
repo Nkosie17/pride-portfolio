@@ -1,11 +1,28 @@
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, User, Code, FolderGit2, GraduationCap, Award } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isOpen]);
 
   const links = [
     { to: "/", label: "About", icon: User },
@@ -59,8 +76,9 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile menu with improved animation */}
+        {/* Mobile menu with improved animation and click-outside handling */}
         <div
+          ref={menuRef}
           className={`md:hidden fixed inset-x-0 top-16 bg-white border-b shadow-lg transform transition-all duration-300 ease-in-out ${
             isOpen ? "translate-y-0 opacity-100" : "-translate-y-2 opacity-0 pointer-events-none"
           }`}
