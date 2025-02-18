@@ -40,7 +40,7 @@ const About = () => {
 
           <div className="flex items-center justify-center space-x-8 mb-16">
             <a
-              href="https://github.com/johndoe"
+              href="https://github.com/Nkosie17"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
@@ -48,7 +48,7 @@ const About = () => {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com/in/johndoe"
+              href="https://linkedin.com/in/pridesibanda"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
@@ -56,7 +56,7 @@ const About = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:john@example.com"
+              href="mailto:pnsibanda@africau.edu"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
             >
               <Mail className="w-6 h-6" />
