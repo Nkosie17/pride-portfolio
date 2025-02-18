@@ -5,26 +5,14 @@ const Education = () => {
   const educationHistory = [
     {
       id: 1,
-      institution: "University of Johannesburg",
+      institution: "Africa University",
       degree: "Bachelor of Science in Computer Science",
-      duration: "2020 - 2023",
-      description: "Focused on software development, algorithms, and artificial intelligence. Completed courses in web development, database management, and machine learning.",
+      duration: "Expected in 06/2026",
+      description: "Currently pursuing a Computer Science degree with focus on software development and modern programming practices.",
       achievements: [
-        "Dean's List 2021-2022",
-        "First Class Honours",
-        "Best Student Project Award"
-      ]
-    },
-    {
-      id: 2,
-      institution: "CodeSpace Academy",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2019",
-      description: "Intensive program covering modern web development technologies and practices. Gained hands-on experience with React, Node.js, and database management.",
-      achievements: [
-        "Top Performer Award",
-        "Built 5 full-stack applications",
-        "Perfect attendance record"
+        "GPA: 3.62/4.0",
+        "Dean's List Student",
+        "Computer Science Club Member"
       ]
     }
   ];
