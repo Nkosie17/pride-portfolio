@@ -4,19 +4,19 @@ import { Award, ExternalLink } from "lucide-react";
 const Certificates = () => {
   const certificates = [
     {
-      title: "Meta Front-End Developer Specialization",
-      organization: "Coursera (Meta)",
+      title: "Google Cybersecurity Specialization",
+      organization: "Coursera (Google)",
       date: "2024",
       description:
-        "Professional certification in front-end development from Meta, covering modern web development practices and technologies",
+        "Professional certification in cybersecurity fundamentals, covering security operations, threat detection, incident response, and security best practices",
       link: "https://www.coursera.org/account/accomplishments/specialization/BCPUSNS188OE",
     },
     {
-      title: "Version Control",
-      organization: "Coursera (Meta)",
+      title: "Google AI Essentials",
+      organization: "Coursera (Google)",
       date: "2024",
       description:
-        "Comprehensive course on version control systems focusing on Git and GitHub for collaborative development",
+        "Comprehensive course on artificial intelligence fundamentals, machine learning concepts, and practical applications of AI technologies",
       link: "https://www.coursera.org/account/accomplishments/records/2ZIXW6NYZ6TD",
     }
   ];
