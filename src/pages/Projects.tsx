@@ -1,6 +1,7 @@
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Github, X } from "lucide-react";
+import { useToast } from "../hooks/use-toast";
 
 interface Project {
   id: number;
@@ -14,6 +15,26 @@ interface Project {
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  const { toast } = useToast();
+
+  // Handle cleanup when user returns from external links
+  useEffect(() => {
+    const handleFocus = () => {
+      // Clear the selected project when window regains focus
+      setSelectedProject(null);
+    };
+
+    window.addEventListener('focus', handleFocus);
+    return () => window.removeEventListener('focus', handleFocus);
+  }, []);
+
+  const handleGithubClick = (e: React.MouseEvent<HTMLAnchorElement>, project: Project) => {
+    e.stopPropagation(); // Prevent modal from closing
+    toast({
+      description: "Opening GitHub repository in a new tab",
+      duration: 2000,
+    });
+  };
 
   const projects: Project[] = [
     {
@@ -133,6 +154,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 bg-foreground text-background rounded-lg hover:bg-foreground/90 transition-colors"
+                  onClick={(e) => handleGithubClick(e, selectedProject)}
                 >
                   <Github className="w-5 h-5 mr-2" />
                   View Source Code
