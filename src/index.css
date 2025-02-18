@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,11 +23,19 @@
   }
 
   * {
-    @apply border-border scroll-smooth;
+    @apply border-border scroll-smooth min-h-0;
+  }
+
+  html, body {
+    @apply h-full;
   }
 
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-[#F8F9FF] text-foreground antialiased min-h-screen;
+  }
+
+  #root {
+    @apply min-h-screen;
   }
 }
 
