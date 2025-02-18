@@ -15,7 +15,7 @@ const About = () => {
           </div>
 
           <h1 className="text-4xl font-bold text-center mb-4 text-gray-900">
-            Pride Sibanda
+            Hello! I'm Pride Sibanda
           </h1>
           
           <p className="text-xl text-center text-gray-600 mb-3">
