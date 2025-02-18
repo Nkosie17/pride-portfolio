@@ -7,9 +7,7 @@ const Education = () => {
       school: "Africa University",
       degree: "Bachelor of Science in Computer Science",
       period: "Expected in 06/2026",
-      gpa: "3.62/4.0",
-      description:
-        "Currently pursuing a BSc in Computer Science with focus on software development and computer systems",
+      gpa: "3.62/4.0"
     }
   ];
 
@@ -40,7 +38,6 @@ const Education = () => {
                     <span>{edu.period}</span>
                     <span>GPA: {edu.gpa}</span>
                   </div>
-                  <p className="text-muted-foreground">{edu.description}</p>
                 </div>
               </div>
             </div>
