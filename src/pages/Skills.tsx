@@ -12,13 +12,13 @@ const Skills = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20 bg-gradient-to-br from-gray-50 to-gray-100 animate-fade-in">
+    <div className="min-h-screen pt-20 pb-8 bg-gradient-to-br from-gray-50 to-gray-100 animate-fade-in">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-gray-800 to-gray-900 bg-clip-text text-transparent">
           Skills & Expertise
         </h2>
 
-        <div className="max-w-2xl mx-auto space-y-8">
+        <div className="max-w-2xl mx-auto space-y-8 mb-12">
           {skills.map((skill, index) => (
             <div 
               key={skill.name} 
