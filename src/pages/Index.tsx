@@ -18,9 +18,17 @@ const About = () => {
             Hello! I'm Pride Sibanda
           </h1>
           
-          <p className="text-xl text-center text-gray-600 mb-3">
-            Full Stack Developer
-          </p>
+          <div className="space-y-2 mb-3">
+            <p className="text-xl text-center text-gray-600">
+              Full Stack Developer
+            </p>
+            <p className="text-lg text-center text-gray-600">
+              Cybersecurity Enthusiast | AI Developer
+            </p>
+            <p className="text-lg text-center text-indigo-600">
+              Computer Science Student
+            </p>
+          </div>
 
           <div className="flex items-center justify-center text-gray-600 mb-16">
             <MapPin className="w-5 h-5 mr-2" />
