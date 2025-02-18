@@ -6,48 +6,60 @@ const About = () => {
     <div className="min-h-screen pt-32 animate-fade-in bg-[#F8F9FF]">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-6xl md:text-7xl font-bold text-center mb-6 bg-gradient-to-r from-indigo-600 to-violet-600 text-transparent bg-clip-text">
-            Hello, I'm John Doe
+          <div className="relative w-32 h-32 mx-auto mb-8">
+            <img
+              src="/lovable-uploads/84e48ec8-e956-42ba-a512-c503f733ebe1.png"
+              alt="Profile"
+              className="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
+            />
+          </div>
+
+          <h1 className="text-4xl font-bold text-center mb-4 text-gray-900">
+            John Doe
           </h1>
           
-          <p className="text-xl md:text-2xl text-center text-gray-600 mb-16">
-            A passionate developer building amazing web experiences
+          <p className="text-xl text-center text-gray-600 mb-3">
+            Full Stack Developer
           </p>
 
-          <h2 className="text-4xl font-bold text-center text-indigo-600 mb-8">
-            About Me
-          </h2>
+          <div className="flex items-center justify-center text-gray-600 mb-16">
+            <MapPin className="w-5 h-5 mr-2" />
+            San Francisco, California, United States
+          </div>
 
-          <p className="text-lg md:text-xl leading-relaxed text-center text-gray-600 max-w-3xl mx-auto mb-12">
-            I'm a full-stack developer with a passion for building beautiful, functional, and user-friendly applications. 
-            With a strong foundation in modern web technologies, I strive to create impactful digital experiences.
-          </p>
+          <div className="bg-white rounded-2xl shadow-sm p-8 mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+              About Me
+            </h2>
 
-          <div className="flex items-center justify-center space-x-6">
+            <p className="text-lg leading-relaxed text-gray-600">
+              I'm a passionate full-stack developer with expertise in building modern web applications. I love 
+              creating elegant solutions to complex problems and am constantly learning new technologies.
+            </p>
+          </div>
+
+          <div className="flex items-center justify-center space-x-8">
             <a
-              href="mailto:john@example.com"
-              className="flex items-center text-gray-600 hover:text-indigo-600 transition-colors"
+              href="https://github.com/johndoe"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-indigo-600 transition-colors"
             >
-              <Mail className="w-5 h-5 mr-2" />
-              john@example.com
+              <Github className="w-6 h-6" />
             </a>
             <a
               href="https://linkedin.com/in/johndoe"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center text-gray-600 hover:text-indigo-600 transition-colors"
+              className="text-gray-600 hover:text-indigo-600 transition-colors"
             >
-              <Linkedin className="w-5 h-5 mr-2" />
-              LinkedIn
+              <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="https://github.com/johndoe"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center text-gray-600 hover:text-indigo-600 transition-colors"
+              href="mailto:john@example.com"
+              className="text-gray-600 hover:text-indigo-600 transition-colors"
             >
-              <Github className="w-5 h-5 mr-2" />
-              GitHub
+              <Mail className="w-6 h-6" />
             </a>
           </div>
         </div>
