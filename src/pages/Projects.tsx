@@ -29,7 +29,7 @@ const Projects = () => {
   }, []);
 
   const handleGithubClick = (e: React.MouseEvent<HTMLAnchorElement>, project: Project) => {
-    e.stopPropagation(); // Prevent modal from closing
+    e.stopPropagation();
     toast({
       description: "Opening GitHub repository in a new tab",
       duration: 2000,
@@ -42,7 +42,7 @@ const Projects = () => {
       title: "Sales and Inventory Management",
       description: "A system that tracks sales, manages stock levels, and optimizes inventory control",
       fullDescription: "A comprehensive system that tracks sales, manages stock levels, and optimizes inventory control to improve efficiency and reduce losses. The system provides real-time insights into stock levels, sales trends, and helps businesses make data-driven decisions.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81",
       technologies: [
         "React",
         "Node.js",
