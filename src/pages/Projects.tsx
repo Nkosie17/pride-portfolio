@@ -90,20 +90,20 @@ const Projects = () => {
 
         {selectedProject && (
           <div 
-            className="fixed inset-0 bg-background/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+            className="fixed inset-0 bg-background/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 touch-none"
             onClick={(e) => {
-              // Close modal when clicking the backdrop
               if (e.target === e.currentTarget) {
                 setSelectedProject(null);
               }
             }}
           >
-            <div className="bg-card max-w-2xl w-full rounded-lg shadow-lg relative animate-fade-in">
+            <div className="bg-card w-full max-w-2xl rounded-lg shadow-lg relative animate-fade-in max-h-[90vh] overflow-y-auto">
               <button
                 onClick={() => setSelectedProject(null)}
-                className="absolute top-4 right-4 p-2 rounded-full hover:bg-secondary"
+                className="absolute top-4 right-4 p-2 rounded-full hover:bg-secondary z-10"
+                aria-label="Close preview"
               >
-                <X className="w-5 h-5" />
+                <X className="w-6 h-6" />
               </button>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-4">
