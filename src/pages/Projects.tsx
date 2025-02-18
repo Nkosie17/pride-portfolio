@@ -18,45 +18,48 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "SkyDrift",
-      description: "A flight booking and seat reservation system",
-      fullDescription: "A comprehensive flight booking system that allows users to search for flights, book tickets, and select seats. Built with modern web technologies for optimal performance and user experience.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      title: "Sales and Inventory Management",
+      description: "A system that tracks sales, manages stock levels, and optimizes inventory control",
+      fullDescription: "A comprehensive system that tracks sales, manages stock levels, and optimizes inventory control to improve efficiency and reduce losses. The system provides real-time insights into stock levels, sales trends, and helps businesses make data-driven decisions.",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
       technologies: [
-        "Java",
-        "JavaFX",
-        "MySQL",
-        "CSS",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "TypeScript"
       ],
-      github: "https://github.com/Nkosie17/SkyDrift",
+      github: "https://github.com/Nkosie17/sales-and-inventory-management.git",
     },
     {
       id: 2,
-      title: "Foodie Palace",
-      description: "A restaurant management system for food ordering",
-      fullDescription: "A restaurant management system that enables customers to place orders, track their orders, and make payments. The system also includes an admin dashboard for restaurant management.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      title: "Multiple Tool AI Agent",
+      description: "An intelligent system that understands queries and performs real-world tasks using external tools",
+      fullDescription: "An advanced AI system that can understand queries, retrieve relevant data, and perform real-world tasks using external tools. The agent is designed to interact intelligently with users and execute actions based on their requests, making it a versatile tool for various applications.",
+      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
       technologies: [
-        "Java",
-        "JavaFX",
-        "MySQL",
-        "CSS",
+        "Python",
+        "TensorFlow",
+        "Natural Language Processing",
+        "REST APIs",
+        "Docker"
       ],
-      github: "https://github.com/Nkosie17/FoodiePalace",
+      github: "https://github.com/Nkosie17/AI-Agent.git",
     },
     {
       id: 3,
-      title: "Portfolio Website",
-      description: "My personal portfolio website built with modern technologies",
-      fullDescription: "A modern, responsive portfolio website showcasing my projects and skills. Built with React and Tailwind CSS for a clean and professional look.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+      title: "AI Meal Planner",
+      description: "A smart system for creating personalized meal plans based on user preferences and needs",
+      fullDescription: "An AI-powered meal planning system that helps users create personalized meal plans based on their dietary preferences, health goals, allergies, and lifestyle. It leverages artificial intelligence to generate nutritious meal recommendations, optimize grocery lists, and suggest recipes tailored to the user's needs.",
+      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9",
       technologies: [
+        "Python",
+        "Machine Learning",
         "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "Shadcn/UI"
+        "Node.js",
+        "PostgreSQL"
       ],
-      github: "https://github.com/Nkosie17/portfolio",
+      github: "https://github.com/Nkosie17/AI-Meal-Planner.git",
     }
   ];
 
