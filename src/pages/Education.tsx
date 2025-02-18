@@ -4,21 +4,13 @@ import { GraduationCap } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      school: "Stanford University",
-      degree: "Master of Science in Computer Science",
-      period: "2018 - 2020",
-      gpa: "3.8",
-      description:
-        "Specialized in Artificial Intelligence and Machine Learning",
-    },
-    {
-      school: "University of California, Berkeley",
+      school: "Africa University",
       degree: "Bachelor of Science in Computer Science",
-      period: "2014 - 2018",
-      gpa: "3.9",
+      period: "Expected in 06/2026",
+      gpa: "3.62",
       description:
-        "Major in Computer Science with a minor in Mathematics",
-    },
+        "Currently pursuing a BSc in Computer Science with focus on software development and computer systems",
+    }
   ];
 
   return (
