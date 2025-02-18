@@ -8,7 +8,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <div className="relative w-32 h-32 mx-auto mb-8">
             <img
-              src="/lovable-uploads/84e48ec8-e956-42ba-a512-c503f733ebe1.png"
+              src="/lovable-uploads/18b33572-a399-40d2-be55-7e8ed62d6c1e.png"
               alt="Profile"
               className="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
             />
