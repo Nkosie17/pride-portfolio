@@ -1,5 +1,5 @@
 
-import { Award, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const Certificates = () => {
   const certificates = [
@@ -36,8 +36,12 @@ const Certificates = () => {
               }}
             >
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-secondary rounded-full shrink-0">
-                  <Award className="w-6 h-6" />
+                <div className="p-2 bg-white rounded-full shrink-0 w-12 h-12 flex items-center justify-center">
+                  <img 
+                    src="/google-logo.png" 
+                    alt="Google Logo" 
+                    className="w-8 h-8 object-contain"
+                  />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">{cert.title}</h3>
