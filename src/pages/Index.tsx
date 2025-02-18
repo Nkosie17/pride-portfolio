@@ -15,7 +15,7 @@ const About = () => {
           </div>
 
           <h1 className="text-4xl font-bold text-center mb-4 text-gray-900">
-            John Doe
+            Pride Sibanda
           </h1>
           
           <p className="text-xl text-center text-gray-600 mb-3">
@@ -24,7 +24,7 @@ const About = () => {
 
           <div className="flex items-center justify-center text-gray-600 mb-16">
             <MapPin className="w-5 h-5 mr-2" />
-            San Francisco, California, United States
+            Victoria Falls, Zimbabwe
           </div>
 
           <div className="bg-white rounded-2xl shadow-sm p-8 mb-12">
