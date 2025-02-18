@@ -9,6 +9,7 @@ const Skills = () => {
     { name: "Python", level: 70, color: "from-indigo-400 to-purple-500" },
     { name: "SQL", level: 80, color: "from-orange-400 to-red-500" },
     { name: "Git", level: 85, color: "from-red-400 to-rose-500" },
+    { name: "Django", level: 75, color: "from-green-600 to-emerald-700" },
   ];
 
   return (
