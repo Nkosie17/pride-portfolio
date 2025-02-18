@@ -1,9 +1,9 @@
 
-import { Mail, Linkedin, MapPin } from "lucide-react";
+import { Mail, Linkedin, Github, MapPin } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="min-h-screen pt-20 animate-fade-in">
+    <div className="min-h-screen pt-24 animate-fade-in">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="relative w-32 h-32 mx-auto mb-8">
@@ -15,12 +15,18 @@ const About = () => {
           </div>
 
           <h1 className="text-4xl font-bold text-center mb-4">John Doe</h1>
-          <p className="text-lg text-muted-foreground text-center mb-8">
-            Software Developer
-          </p>
+          <div className="flex flex-col items-center space-y-2 mb-8">
+            <p className="text-lg text-muted-foreground">
+              Software Developer
+            </p>
+            <div className="flex items-center text-muted-foreground">
+              <MapPin className="w-4 h-4 mr-1" />
+              <span>San Francisco, CA</span>
+            </div>
+          </div>
 
-          <div className="space-y-6 text-center">
-            <p className="text-lg leading-relaxed">
+          <div className="space-y-8">
+            <p className="text-lg leading-relaxed text-center">
               I am a passionate software developer with a keen interest in building
               beautiful and functional web applications. With experience in modern
               web technologies, I strive to create elegant solutions to complex
@@ -30,7 +36,7 @@ const About = () => {
             <div className="flex items-center justify-center space-x-6">
               <a
                 href="mailto:john@example.com"
-                className="flex items-center text-muted-foreground hover:text-foreground transition-colors"
+                className="flex items-center text-muted-foreground hover:text-indigo-600 transition-colors"
               >
                 <Mail className="w-5 h-5 mr-2" />
                 john@example.com
@@ -39,16 +45,20 @@ const About = () => {
                 href="https://linkedin.com/in/johndoe"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-muted-foreground hover:text-foreground transition-colors"
+                className="flex items-center text-muted-foreground hover:text-indigo-600 transition-colors"
               >
                 <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn
               </a>
-            </div>
-
-            <div className="flex items-center justify-center text-muted-foreground">
-              <MapPin className="w-5 h-5 mr-2" />
-              San Francisco, CA
+              <a
+                href="https://github.com/johndoe"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-muted-foreground hover:text-indigo-600 transition-colors"
+              >
+                <Github className="w-5 h-5 mr-2" />
+                GitHub
+              </a>
             </div>
           </div>
         </div>
