@@ -33,7 +33,7 @@ const About = () => {
             </h2>
 
             <p className="text-lg leading-relaxed text-gray-600">
-              Computer Science student aspiring to be a Software Engineer with a focus in Cybersecurity and Artificial Intelligence. Passionate about building secure, scalable, and intelligent systems that enhance efficiency and user experience. Skilled in developing software solutions while integrating AI-driven insights and cybersecurity best practices. Continuously learning and adapting to emerging technologies to create innovative and resilient applications.
+              I am a Computer Science student aspiring to be a Software Engineer with a focus in Cybersecurity and Artificial Intelligence. Passionate about building secure, scalable, and intelligent systems that enhance efficiency and user experience. Skilled in developing software solutions while integrating AI-driven insights and cybersecurity best practices. Continuously learning and adapting to emerging technologies to create innovative and resilient applications.
             </p>
           </div>
 
