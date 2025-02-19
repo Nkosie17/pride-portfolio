@@ -81,6 +81,22 @@ const Projects = () => {
         "PostgreSQL"
       ],
       github: "https://github.com/Nkosie17/AI-Meal-Planner.git",
+    },
+    {
+      id: 4,
+      title: "E-commerce Platform",
+      description: "A full-featured online shopping platform with modern UI and seamless payment integration",
+      fullDescription: "A comprehensive e-commerce solution that provides a smooth shopping experience with features like product catalog management, shopping cart functionality, secure payment processing, order tracking, and customer account management. Built with modern technologies and best practices for scalability and performance.",
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+      technologies: [
+        "React",
+        "Next.js",
+        "Stripe",
+        "MongoDB",
+        "Tailwind CSS",
+        "Redux"
+      ],
+      github: "https://github.com/Nkosie17/ecommerce-platform.git",
     }
   ];
 
