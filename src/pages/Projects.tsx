@@ -84,19 +84,19 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "E-commerce Platform",
-      description: "A full-featured online shopping platform with modern UI and seamless payment integration",
-      fullDescription: "A comprehensive e-commerce solution that provides a smooth shopping experience with features like product catalog management, shopping cart functionality, secure payment processing, order tracking, and customer account management. Built with modern technologies and best practices for scalability and performance.",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+      title: "Course Recommender System",
+      description: "An AI-powered system that suggests personalized online courses based on user interests and preferences",
+      fullDescription: "A sophisticated course recommendation system that helps users find the best online courses based on their interests and learning goals. Using machine learning algorithms and user input filtering, the system provides tailored suggestions for students and professionals seeking relevant learning resources. The interactive Streamlit interface makes it easy for users to discover and explore educational content that matches their needs.",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
       technologies: [
-        "React",
-        "Next.js",
-        "Stripe",
-        "MongoDB",
-        "Tailwind CSS",
-        "Redux"
+        "Python",
+        "Streamlit",
+        "Machine Learning",
+        "Pandas",
+        "Scikit-learn",
+        "Data Analysis"
       ],
-      github: "https://github.com/Nkosie17/ecommerce-platform.git",
+      github: "https://github.com/NyashaEysenck/Course-Recommender-System.git",
     }
   ];
 
