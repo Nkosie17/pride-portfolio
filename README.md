@@ -1,13 +1,8 @@
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/e98d4c5c-bdae-4f32-afd9-cf8705b3c241
+# Welcome to Pride Sibanda Portfolio
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
-
 
 **Use your preferred IDE**
 
